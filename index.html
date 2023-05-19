@@ -39,17 +39,17 @@
       </header>
       <main>
         <div id="days"></div>
-          <div class="habbit">
-            <div class="habbit__day">День _</div>
-            <form class="habbit__form">
-              <input class="input_icon" type="text" placeholder="Комментарий">
-              <img class="input__icon" src="./images/comment.svg" alt="comment">
-              <button class="button">Готово</button>
-            </form>
-          </div>
+        <div class="habbit">
+          <div class="habbit__day">День _</div>
+          <form class="habbit__form" onsubmit="addDays(event)">
+            <input class="input_icon" name="comment" type="text" placeholder="Комментарий">
+            <img class="input__icon" src="./images/comment.svg" alt="comment">
+            <button class="button" type="submit">Готово</button>
+          </form>
         </div>
-      </main>
     </div>
+    </main>
+  </div>
   </div>
   <script src="./scripts/app.js"></script>
 </body>
