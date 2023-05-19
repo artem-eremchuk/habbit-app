@@ -47,9 +47,33 @@
             <button class="button" type="submit">Готово</button>
           </form>
         </div>
+      </main>
     </div>
-    </main>
   </div>
+  <div class="cover cover_hidden">
+    <div class="popup">
+      <h2 class="popop__title">Новая привычка</h2>
+      <div class="icon-label">Иконка</div>
+      <div class="icon-select">
+        <button class="icon icon_active">
+          <img src="./images/sport.svg" alt="Спорт">
+        </button>
+        <button class="icon">
+          <img src="./images/water.svg" alt="Напитки">
+        </button>
+        <button class="icon">
+          <img src="./images/food.svg" alt="Еда">
+        </button>
+      </div>
+      <form action="" class="popup__form">
+        <input type="text" name="name" placeholder="Название">
+        <input type="number" name="target" placeholder="Цель">
+        <button class="button" type="submit">Добавить</button>
+      </form>
+      <button class="popup__close">
+        <img src="./images/close.svg" alt="close">
+      </button>
+    </div>
   </div>
   <script src="./scripts/app.js"></script>
 </body>
